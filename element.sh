@@ -39,4 +39,4 @@ MASA=$( cat ../atomic_mass.txt | grep "^$ATOMICAL_ID " | sed -r 's/^[1-9].* //')
   do
     echo "The element with atomic number $NUMBER is $NAME ($SYMBOL). It's a $TYPE, with a mass of $MASA amu. $NAME has a melting point of $MELTING celsius and a boiling point of $BOILING celsius."
   done
-fi
+fi 
